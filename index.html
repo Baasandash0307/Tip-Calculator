@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <p class="tip">
+        Tip Calculator
+    </p>
+    
+    <div class="table">
+        <div class="innerTable">
+            <div class="values">
+                <p>
+                    Bill
+                </p>
+                <div>
+                    <span>₮</span>
+                    <input id="billAmount" style="height: 30px; width: 90%; border-radius: 5px; border: 0;" type="number">
+                </div>
+                
+                <p>
+                    Select Tip %
+                </p>
+            
+                <div id="perc" >
+                    <button type="button" class="tip-buttons" value="5%">5% </button>
+                    <button type="button" class="tip-buttons" value="5%">10% </button>
+                    <button type="button" class="tip-buttons" value="5%">15% </button>
+                    <button type="button" class="tip-buttons" value="5%">25% </button>
+                    <button type="button" class="tip-buttons" value="5%">35% </button>
+                    <button type="button" class="tip-buttons" value="5%">55% </button>
+                    <button type="button" class="tip-buttons" value="5%">70% </button>
+                    <button type="button" class="tip-buttons" value="5%">80% </button>
+                   
+                </div>
+
+                <div id="totalTip">
+                    <p>Total:<span id="tip">0.00</span></p>
+                </div>
+
+                <div id="reset">
+                    <button id="clear">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

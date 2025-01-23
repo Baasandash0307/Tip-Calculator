@@ -59,7 +59,7 @@ body{
     color: #00464b;
 }
 
-.value{
+#perc{
     position: relative;
     left: -16px;
     display: flex;
@@ -67,7 +67,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.value input{
+#perc button{
     height: 35px;
     width: 60px;
     border-radius: 10%;
@@ -81,7 +81,7 @@ body{
     color: white;
 }
 
-.reset input{
+#reset button{
     position: relative;
     width: 90%;
     height: 30px;
